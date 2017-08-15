@@ -28,10 +28,53 @@
             background-color: #ffffff;
             border: 0;
         }
+        .button {
+            background-color: #000;
+        }
 
-        td.preheader {
+        td {
+            color: #000; 
+            line-height: 30px; 
+            vertical-align: top; 
+        }
+
+        .preheader {
             font-size: 0px;
             display: none!important;
+        }
+        .text-body {
+            font-size: 16px;
+            text-align: left; 
+            padding:20px;
+        } 
+        .title {
+            font-size: 36px;
+            text-align: left; 
+            padding: 15px 0px;
+        }
+        .subtitle {
+            font-size: 20px;
+            text-align: left; 
+        }
+        .button {
+            padding:12px 25px;
+        }
+
+        p {
+            mso-table-lspace:0;
+            mso-table-rspace:0; 
+            margin:0;
+        }
+        img {
+            border: 0;
+        }
+        a.btn {
+            color:#ffffff;
+            font-size:19px;
+            font-weight: 400;
+            text-align: center;
+            text-decoration: none;
+            font-family: arial
         }
         
         @media only screen and (max-width: 640px) {
@@ -93,40 +136,40 @@
     </table>
     <!-- preheader -->
     <!-- image and text -->
-    <table st-sortable="1-image+text-column" bgcolor="#ebebeb" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
         <tr>
             <td>
-                <table width="680" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff">
+                <table class="deviceWidth" width="680" border="0" cellpadding="0" cellspacing="0" align="center">
                     <tr>
                         <td width="100%">
-                            <table class="devicewidth" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <table class="devicewidth" width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
                                 <tr>
                                     <td valign="top" style="padding:0" width="100%">
-                                        <a href="#"><img st-image="banner-image" class="deviceWidth" src="http://placehold.it/680x453" alt="" border="0" width="680" style="display: block; border-radius: 0px;" />
+                                        <a href="#"><img class="deviceWidth" src="http://placehold.it/680x453" alt="" width="680" style="display: block; border-radius: 0px;" />
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="font-size: 16px; color: #999999; text-align: center; font-family: 'Roboto', Helvetica, Arial, sans-serif; line-height: 30px; vertical-align: top; padding:20px;" width="100%">
+                                    <td class="text-body" width="100%">
                                         <table width="100%">
                                             <tr>
-                                                <td style="font-family: 'Roboto', Helvetica, Arial, sans-serif; font-size: 28px; color: #333333; text-align:center;line-height: 36px; padding:5px 10px;" st-title="titletext-title">MEET ELISA BELLOSTA</td>
+                                                <td class="title">TITLE TEXT</td>
                                             </tr>
                                             <tr>
-                                                <td style="font-family: 'Roboto', Helvetica, Arial, sans-serif; font-size: 18px; color: #666666; text-align:center;line-height: 24px; padding:5px 10px;" st-title="titletext-subtitle">Your Marketing Online Agency</td>
+                                                <td class="subtitle">Subtitle text</td>
                                             </tr>
                                             <tr>
                                                 <td height="15" width="100%"></td>
                                             </tr>
                                         </table>
-                                        <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0" st-title="titletext-longtext">
+                                        <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod augue a diam condimentum convallis. Maecenas aliquam vel urna vel lobortis. Praesent varius lorem sed neque rutrum, in pellentesque risus aliquam. Sed quis pretium purus.
                                             <br/>
                                             <br/>
-                                            <table width="auto" align="center" st-button="edit" bgcolor="#24B6D2" style="border-top-left-radius:4px; border-bottom-left-radius:4px;border-top-right-radius:4px; border-bottom-right-radius:4px;">
+                                            <table class="button" width="auto" align="center">
                                                 <tr>
-                                                    <td st-content="read-more-button" style="padding:12px 25px;" align="center">
-                                                        <a href="" style="color:#ffffff;font-size:19px;font-weight:400;text-align:center;text-decoration:none;font-family: 'Roboto', Helvetica, Arial, sans-serif;-webkit-text-size-adjust:none;">Let Elisa Handle It</a>
+                                                    <td class="button" align="center">
+                                                        <a href="" class="btn">BUTTON TEXT</a>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -151,7 +194,7 @@
                             <table class="devicewidth" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
                                     <td valign="top">
-                                        <table width="32%" align="left" cellpadding="0" cellspacing="0" class="deviceWidth">
+                                        <table width="33%" align="left" cellpadding="0" cellspacing="0" class="deviceWidth">
                                             <tr>
                                                 <td valign="top" align="center" style="padding:10px 0">
                                                     <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0">
@@ -180,7 +223,7 @@
                                             </tr>
                                         </table>
                                         <!-- End Image 1 -->
-                                        <table width="32%" align="left" cellpadding="0" cellspacing="0" class="deviceWidth">
+                                        <table width="33%" align="left" cellpadding="0" cellspacing="0" class="deviceWidth">
                                             <tr>
                                                 <td valign="top" align="center" style="padding:10px 0">
                                                     <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0">
@@ -209,7 +252,7 @@
                                             </tr>
                                         </table>
                                         <!-- End Image 2 -->
-                                        <table width="32%" align="left" cellpadding="0" cellspacing="0" class="deviceWidth">
+                                        <table width="33%" align="left" cellpadding="0" cellspacing="0" class="deviceWidth">
                                             <tr>
                                                 <td valign="top" align="center" style="padding:10px 0">
                                                     <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0">
