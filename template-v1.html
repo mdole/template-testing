@@ -130,19 +130,21 @@
             font-family: arial,sans-serif; 
             line-height: 24px; 
             vertical-align: top; 
-            padding:15px 0;"
+            padding:15px 0;
         }
         
 
-        p.column-text {
+        p {
             color:#000;
+        }
+
+        .column-text {
             text-align:left;
             font-size: 13px;
             line-height:22px
 
         }
         .serif-paragraph, .sans-serif-paragraph {
-           color:#000;
            text-align:left;
            font-size: 16px;
            line-height:28px 
@@ -159,10 +161,14 @@
         }
         .column-image {
             vertical-align: middle; 
-            width:170px;
+            width: 170px;
+        }
+        .column-image-narrow {
+            vertical-align: middle; 
+            width: 130px;
         }
         .banner-image {
-            width:680;
+            width:680px;
             display: block;
             border-radius: 0px;
         }
@@ -238,7 +244,7 @@
     </style>
 </head>
 
-<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" yahoo="fix">
     <!-- preheader -->
     <table class="deviceWidth" width="680" border="0" cellpadding="0" cellspacing="0" align="center">
         <tr>
@@ -513,62 +519,62 @@
     <!-- image and text -->
     <!-- left-side image -->
     <table border="0" cellpadding="0" cellspacing="0" width="100%">
-        <tr>
-            <td>
-                <table width="680" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center">
-                    <tr>
-                        <td width="100%">
-                            <table class="devicewidth" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
-                                <tr>
-                                    <td style="padding:15px 0">
-                                        <table align="left" width="40%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth">
-                                            <tr>
-                                                <td valign="top" align="center" class="center" style="padding-top:15px; padding-bottom:10px;">
-                                                    <a href="#"><img width="230" src="http://placehold.it/240x530" alt="" border="0" class="deviceWidth side-image" />
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                        <table align="right" width="59%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth">
-                                            <tr>
-                                                <td style="padding:10px 20px 10px 20px">
-                                                    <table width="100%">
-                                                        <tr>
-                                                            <td class="sans-serif-subtitle" style="line-height: 29px; padding: 4px 2px;">No fluff. No ads. Just great blog articles. Spam free. We promise.
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="sans-serif-body" style="line-height: 30px; padding: 3px 2px;">by John Doe, Sept. 30th 2015 in News
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td height="7" width="100%"></td>
-                                                        </tr>
-                                                    </table>
-                                                    <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0; padding:0 5px" class="serif-paragraph">
-                                                        Morbi rhoncus, lectus vitae vulputate tempus, sem elit maximus tellus, quis malesuada velit urna id elit. Curabitur gravida finibus gravida. Nunc dictum lorem tellus, vitae iaculis augue condimentum quis.
-                                                        <br/>
-                                                        <br/>
-                                                        <table width="140" align="right" class="small-button">
+            <tr>
+                <td>
+                    <table width="680" class="deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center">
+                        <tr>
+                            <td width="100%">
+                                <table class="devicewidth" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td style="padding:15px 0">
+                                            <table align="left" width="40%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth">
+                                                <tr>
+                                                    <td valign="top" align="center" class="center" style="padding-top:15px; padding-bottom:10px;">
+                                                        <a href="#"><img width="230" src="http://placehold.it/240x530" alt="" border="0" class="deviceWidth side-image" />
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table align="right" width="59%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth">
+                                                <tr>
+                                                    <td style="padding:10px 20px 10px 20px">
+                                                        <table width="100%">
                                                             <tr>
-                                                                <td st-content="read-more-button" style="padding:3px 6px;" align="center">
-                                                                    <a href="" class="small-link-button">Read More</a>
+                                                                <td class="sans-serif-subtitle" style="line-height: 29px; padding: 4px 2px;">No fluff. No ads. Just great blog articles. Spam free. We promise.
                                                                 </td>
                                                             </tr>
+                                                            <tr>
+                                                                <td class="sans-serif-body" style="line-height: 30px; padding: 3px 2px;">by John Doe, Sept. 30th 2015 in News
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="7" width="100%"></td>
+                                                            </tr>
                                                         </table>
-                                                    </p>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+                                                        <p style="mso-table-lspace:0;mso-table-rspace:0; margin:0; padding:0 5px" class="serif-paragraph">
+                                                            Morbi rhoncus, lectus vitae vulputate tempus, sem elit maximus tellus, quis malesuada velit urna id elit. Curabitur gravida finibus gravida. Nunc dictum lorem tellus, vitae iaculis augue condimentum quis.
+                                                            <br/>
+                                                            <br/>
+                                                            <table width="140" align="right" class="small-button">
+                                                                <tr>
+                                                                    <td st-content="read-more-button" style="padding:3px 6px;" align="center">
+                                                                        <a href="" class="small-link-button">Read More</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
     <!-- left-side image -->
     <!-- banner -->
     <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -611,7 +617,7 @@
                                         <table align="left" width="20%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth">
                                             <tr>
                                                 <td valign="top" align="center" class="center" style="padding-top:15px; padding-bottom:10px;">
-                                                    <a href="#"><img width="170" src="http://placehold.it/440x440" alt="" border="0" class="deviceWidth column-image" />
+                                                    <a href="#"><img width="170" src="http://placehold.it/440x440" alt="" border="0" class="deviceWidth column-image-narrow" />
                                                     </a>
                                                 </td>
                                             </tr>
@@ -668,7 +674,7 @@
                                         <table align="left" width="20%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth">
                                             <tr>
                                                 <td valign="top" align="center" class="center" style="padding-top:15px; padding-bottom:10px;">
-                                                    <a href="#"><img width="170" src="http://placehold.it/440x440" alt="" border="0" class="deviceWidth column-image" />
+                                                    <a href="#"><img width="170" src="http://placehold.it/440x440" alt="" border="0" class="deviceWidth column-image-narrow" />
                                                     </a>
                                                 </td>
                                             </tr>
@@ -725,7 +731,7 @@
                                         <table align="left" width="20%" cellpadding="0" cellspacing="0" border="0" class="deviceWidth">
                                             <tr>
                                                 <td valign="top" align="center" class="center" style="padding-top:15px; padding-bottom:10px;">
-                                                    <a href="#"><img width="170" src="http://placehold.it/440x440" alt="" border="0" class="deviceWidth column-image" />
+                                                    <a href="#"><img width="170" src="http://placehold.it/440x440" alt="" border="0" class="deviceWidth column-image-narrow" />
                                                     </a>
                                                 </td>
                                             </tr>
