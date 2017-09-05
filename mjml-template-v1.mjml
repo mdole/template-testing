@@ -1,0 +1,218 @@
+<mjml>
+  <mj-head>
+    <mj-preview>The art world at your fingertips—now even easier in Email</mj-preview>
+    <mj-attributes>
+      <mj-text font-family="Helvetica,sans-serif" />
+      <mj-image padding="0px" />
+      <mj-section padding="0px" />
+      <mj-class name="header-serif" font-family="TimesNewRoman,'Times New Roman',Times,Baskerville,Georgia,serif" font-size="35px" line-height="35px" />
+      <mj-class name="header-sans-serif" font-family="Arial, sans-serif" font-size="28px" line-height="28px" />
+      <mj-class name="paragraph-serif" font-family="TimesNewRoman,'Times New Roman',Times,Baskerville,Georgia,serif" font-size="20px" />
+      <mj-class name="paragraph-sans-serif" font-family="Arial, sans-serif" font-size="14px" />
+      <mj-class name="button-black" background-color="#000000" font-family="Arial, sans-serif" font-size="14px" border-radius="0px" color="#ffffff" />
+      <mj-class name="button-white" background-color="#ffffff" font-family="Arial, sans-serif" font-size="14px" border-radius="0px" color="#000000" />
+      <!-- This class is meant for every image in a rail except for the final image -->
+      <mj-class name="image-rail" padding="0px 10px 0px 0px" width="140px"/>
+      <!-- This class is for the last image in a rail -->
+      <mj-class name="image-rail-last" padding="0px" width="140px" />
+      <mj-class name="rail-column" vertical-align="middle"/>
+    </mj-attributes>
+    <mj-style>
+      @media all and (max-width: 480px) { 
+      div[style*="font-size:28px;"] { font-size: 20px !important; } 
+      div[style*="font-size:20px;"] { font-size: 14px !important; }
+      img[src*="https://s3.amazonaws.com/gravity-production/email_content/special_content/Artsy_Logo_Square_Black_Jpeg_200px.png"] { width: 50px !important; margin: auto !important; }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+    img[style*="width:140px"] {height: auto !important;}
+
+    *[class*="section-rail"] {height: 200px !important; overflow: hidden;}
+    
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#ffffff">
+      <!-- Header -->
+      <mj-section padding="20px 0">
+        <mj-group>
+          <mj-column>
+            <mj-image width="100px" src="https://s3.amazonaws.com/gravity-production/email_content/special_content/Artsy_Logo_Square_Black_Jpeg_200px.png"/>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Banner image -->
+      <mj-section>
+        <mj-column>
+          <mj-image src="http://via.placeholder.com/600x200" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Under-banner -->
+      <mj-section background-color="#6d6d6d">
+        <mj-column>
+          <mj-text mj-class="header-sans-serif" align="center" color="white">
+            The Armory Show
+          </mj-text>
+          <mj-text mj-class="paragraph-serif" align="center" color="white">
+            Go inside Piers 92 & 94 to preview works for sale at The Armory Show, New York City's Premier art fair.
+          </mj-text>
+          <mj-button mj-class="button-white"> EXPLORE THE FAIR </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- One-third two-thid split -->
+      <mj-section>
+          <mj-column width="200px">
+            <mj-image src="http://via.placeholder.com/200x200" />
+            <mj-text mj-class="header-sans-serif" align="center">
+              Museum Show
+            </mj-text>
+            <mj-text mj-class="paragraph-sans-serif" align="center">
+              New York, NY
+            </mj-text>
+            <mj-button mj-class="button-black"> EXPLORE </mj-button>
+          </mj-column>
+          <mj-column width="400px">
+            <mj-image src="http://via.placeholder.com/400x200" />
+            <mj-text mj-class="header-sans-serif" align="center">
+              Gallery Show
+            </mj-text>
+            <mj-text mj-class="paragraph-sans-serif" align="center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </mj-text>
+            <mj-button mj-class="button-black"> VISIT </mj-button>
+          </mj-column>
+      </mj-section>
+
+      <!-- Artwork Rail -->
+      <mj-section>
+        <mj-column>
+            <mj-table>
+                <td height="200px">
+                  <img src="http://via.placeholder.com/200x400" width="140px" style="width:140px"/>
+                </td>
+            </mj-table>
+        </mj-column>
+        <mj-column>
+            <mj-table>
+                <td height="200px">
+                  <img src="http://via.placeholder.com/200x400" width="140px" style="width:140px"/>
+                </td>
+            </mj-table>
+        </mj-column>
+        <mj-column>
+            <mj-table>
+                <td height="200px">
+                  <img src="http://via.placeholder.com/200x400" width="140px" style="width:140px"/>
+                </td>
+            </mj-table>
+        </mj-column>
+        <mj-column>
+            <mj-table>
+                <td height="200px">
+                  <img src="http://via.placeholder.com/200x400" width="140px" style="width:140px"/>
+                </td>
+            </mj-table>
+        </mj-column>
+        <!--
+          <mj-column mj-class="rail-column">
+              <mj-image mj-class="image-rail" src="http://via.placeholder.com/200x200" href="" />
+          </mj-column>
+          <mj-column mj-class="rail-column">
+              <mj-image mj-class="image-rail" src="http://via.placeholder.com/400x200" href="" />
+          </mj-column>
+          <mj-column mj-class="rail-column">
+              <mj-image mj-class="image-rail" src="http://via.placeholder.com/200x400" href="" />
+          </mj-column>
+          <mj-column mj-class="rail-column">
+              <mj-image mj-class="image-rail-last" src="http://via.placeholder.com/400x300" href="" />
+          </mj-column>
+          -->
+      </mj-section>
+
+      <!-- Thirds split -->
+      <mj-section>
+          <mj-column>
+              <mj-image src="http://via.placeholder.com/200x200" />
+              <mj-text mj-class="header-sans-serif" align="center">
+                  Lorum Ipsum
+              </mj-text>
+              <mj-text mj-class="paragraph-sans-serif" align="center">
+                  Show Name <br /> Sep. 5 - Oct. 7
+              </mj-text>
+              <mj-text align="center">
+                  <a href="artsy.net" style="text-decoration:underline;color:#000000;"> Testing </a>
+              </mj-text>
+          </mj-column>
+          <mj-column>
+              <mj-image src="http://via.placeholder.com/200x200" />
+              <mj-text mj-class="header-sans-serif" align="center">
+                  Lorum Ipsum
+              </mj-text>
+              <mj-text mj-class="paragraph-sans-serif" align="center">
+                  Show Name <br /> Sep. 5 - Oct. 7
+              </mj-text>
+              <mj-text align="center">
+                  <a href="artsy.net" style="text-decoration:underline;color:#000000;"> Testing </a>
+              </mj-text>
+          </mj-column>
+          <mj-column>
+              <mj-image src="http://via.placeholder.com/200x200" />
+              <mj-text mj-class="header-sans-serif" align="center">
+                  Lorum Ipsum
+              </mj-text>
+              <mj-text mj-class="paragraph-sans-serif" align="center">
+                  Show Name <br /> Sep. 5 - Oct. 7
+              </mj-text>
+              <mj-text align="center">
+                  <a href="artsy.net" style="text-decoration:underline;color:#000000;"> Testing </a>
+              </mj-text>
+          </mj-column>
+        </mj-section>
+
+      <!-- Footer -->
+      <mj-section>
+        <mj-column>
+          <mj-divider border-width="1px" border-color="#afafaf" padding="10px 0px"/>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-group>
+          <mj-column>
+            <mj-image src="http://static.artsy.net/email_content/special_content/PB_Trending_06.jpg" href="https://app.adjust.com/90c0hf?redirect=https%3A%2F%2Fitunes.apple.com%2Fapp%2Fapple-store%2Fid703796080%3Fpt%3D479887%26ct%3Dauctions%26mt%3D8%26campaign%3Dlive" width="80"/>
+          </mj-column>
+          <mj-column>
+            <mj-image src="http://static.artsy.net/email_content/special_content/twitter2.png" href="http://static.artsy.net/email_content/special_content/twitter2.png" width="29"/>
+          </mj-column>
+          <mj-column>
+            <mj-image src="http://static.artsy.net/email_content/special_content/facebook2.png" href="https://facebook.com/artsy" width="29"/>
+          </mj-column>
+          <mj-column>
+            <mj-image src="http://static.artsy.net/email_content/special_content/Insta.jpg" href="https://instagram.com/artsy/" width="29"/>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-divider border-width="1px" border-color="#afafaf"  padding="10px 0px"/>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+          <mj-column>
+            <mj-text align="center" color="#afafaf">
+                  Artsy · 401 Broadway · 26th Floor<br />
+                  New York, NY · 10013<br />
+                  View this email in your browser | Update Email Preferences | Unsubscribe
+            </mj-text>
+              <!-- <mj-text align="center" color="#afafaf">
+                  Artsy · 401 Broadway · 26th Floor<br />
+                  New York, NY · 10013<br />
+                  <a href="{view_url}" target="_blank" style="color:#afafaf;">View this email in your browser</a> | <a href="http://link.artsy.net/manage/56t/emailpreferences?email={email}&hash={md5(email+"e2f796871849ec850e78735d4f1114fa")}" target="_blank" style="color:#afafaf;">Update Email Preferences</a> | <a href="{optout_confirm_url}" target="_blank" style="color:#afafaf;">Unsubscribe</a>
+              </mj-text> -->
+          </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
