@@ -89,47 +89,17 @@
       <!-- Artwork Rail -->
       <mj-section>
         <mj-column>
-            <mj-table>
-                <td height="200px">
-                  <img src="http://via.placeholder.com/200x400" width="140px" style="width:140px"/>
-                </td>
-            </mj-table>
+          <mj-image src="http://via.placeholder.com/200x400" />
         </mj-column>
         <mj-column>
-            <mj-table>
-                <td height="200px">
-                  <img src="http://via.placeholder.com/200x400" width="140px" style="width:140px"/>
-                </td>
-            </mj-table>
+          <mj-image src="http://via.placeholder.com/200x400" />
         </mj-column>
         <mj-column>
-            <mj-table>
-                <td height="200px">
-                  <img src="http://via.placeholder.com/200x400" width="140px" style="width:140px"/>
-                </td>
-            </mj-table>
+          <mj-image src="http://via.placeholder.com/200x400" />
         </mj-column>
         <mj-column>
-            <mj-table>
-                <td height="200px">
-                  <img src="http://via.placeholder.com/200x400" width="140px" style="width:140px"/>
-                </td>
-            </mj-table>
+          <mj-image src="http://via.placeholder.com/200x400" />
         </mj-column>
-        <!--
-          <mj-column mj-class="rail-column">
-              <mj-image mj-class="image-rail" src="http://via.placeholder.com/200x200" href="" />
-          </mj-column>
-          <mj-column mj-class="rail-column">
-              <mj-image mj-class="image-rail" src="http://via.placeholder.com/400x200" href="" />
-          </mj-column>
-          <mj-column mj-class="rail-column">
-              <mj-image mj-class="image-rail" src="http://via.placeholder.com/200x400" href="" />
-          </mj-column>
-          <mj-column mj-class="rail-column">
-              <mj-image mj-class="image-rail-last" src="http://via.placeholder.com/400x300" href="" />
-          </mj-column>
-          -->
       </mj-section>
 
       <!-- Thirds split -->
