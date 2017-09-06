@@ -84,8 +84,8 @@
         <mj-column vertical-align="middle">
           <mj-table padding="0px" cellpadding="0px" cellspacing="0px">
             <tr>
-              <td align="center">
-                <img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src=http://via.placeholder.com/1000x200&resize_to=limit&height=300&width=150" />
+              <td align="center" <!--[if mso | IE]>style="height:300px;" height="300px"<![endif]-->">
+                <img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src={content[0].images.thumb.url}&resize_to=limit&height=300&width=150" />
               </td>
             </tr>
           </mj-table>
@@ -93,8 +93,8 @@
         <mj-column vertical-align="middle">
           <mj-table padding="0px" cellpadding="0px" cellspacing="0px">
             <tr>
-              <td align="center">
-                <img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src=http://via.placeholder.com/200x300&resize_to=limit&height=300&width=150" />
+              <td align="center" <!--[if mso | IE]>style="height:300px;" height="300px"<![endif]-->">
+                <img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src={content[1].images.thumb.url}&resize_to=limit&height=300&width=150" />
               </td>
             </tr>
           </mj-table>
@@ -102,8 +102,8 @@
         <mj-column vertical-align="middle">
           <mj-table padding="0px" cellpadding="0px" cellspacing="0px">
             <tr>
-              <td align="center">
-                <img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src=http://via.placeholder.com/200x1000&resize_to=limit&height=300&width=150" />
+              <td align="center" <!--[if mso | IE]>style="height:300px;" height="300px"<![endif]-->">
+                <img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src={content[2].images.thumb.url}&resize_to=limit&height=300&width=150" />
               </td>
             </tr>
           </mj-table>
@@ -111,8 +111,8 @@
         <mj-column vertical-align="middle">
           <mj-table padding="0px" cellpadding="0px" cellspacing="0px">
             <tr>
-              <td align="center">
-                <img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src=http://via.placeholder.com/500x500&resize_to=limit&height=300&width=150" />
+              <td align="center" <!--[if mso | IE]>style="height:300px;" height="300px"<![endif]-->">
+                <img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src={content[3].images.thumb.url}&resize_to=limit&height=300&width=150" />
               </td>
             </tr>
           </mj-table>
