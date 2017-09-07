@@ -38,7 +38,7 @@
       <!-- Banner image -->
       <mj-section>
         <mj-column>
-          <mj-image src="http://via.placeholder.com/600x200" />
+          <mj-image href="{content[0].vars.collection_url}" src="https://d7hftxdivxxvm.cloudfront.net/?src={content[0].images.full.url}&resize_to=fill&height=400px&width=1200px" />
         </mj-column>
       </mj-section>
 
@@ -81,42 +81,58 @@
 
       <!-- Artwork Rail -->
       <mj-section>
-        <mj-column vertical-align="middle">
-          <mj-table padding="0px" cellpadding="0px" cellspacing="0px">
-            <tr>
-              <td align="center" <!--[if mso | IE]>style="height:300px;" height="300px"<![endif]-->">
-                <img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src={content[0].images.thumb.url}&resize_to=limit&height=300&width=150" />
-              </td>
-            </tr>
-          </mj-table>
-        </mj-column>
-        <mj-column vertical-align="middle">
-          <mj-table padding="0px" cellpadding="0px" cellspacing="0px">
-            <tr>
-              <td align="center" <!--[if mso | IE]>style="height:300px;" height="300px"<![endif]-->">
-                <img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src={content[1].images.thumb.url}&resize_to=limit&height=300&width=150" />
-              </td>
-            </tr>
-          </mj-table>
-        </mj-column>
-        <mj-column vertical-align="middle">
-          <mj-table padding="0px" cellpadding="0px" cellspacing="0px">
-            <tr>
-              <td align="center" <!--[if mso | IE]>style="height:300px;" height="300px"<![endif]-->">
-                <img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src={content[2].images.thumb.url}&resize_to=limit&height=300&width=150" />
-              </td>
-            </tr>
-          </mj-table>
-        </mj-column>
-        <mj-column vertical-align="middle">
-          <mj-table padding="0px" cellpadding="0px" cellspacing="0px">
-            <tr>
-              <td align="center" <!--[if mso | IE]>style="height:300px;" height="300px"<![endif]-->">
-                <img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src={content[3].images.thumb.url}&resize_to=limit&height=300&width=150" />
-              </td>
-            </tr>
-          </mj-table>
-        </mj-column>
+        <mj-group>
+          <mj-column vertical-align="middle">
+            <mj-table padding="0px" cellpadding="0px" cellspacing="0px">
+              <tr>
+                <td align="center" style="height:300px;" height="300px">
+                  <a href="{content[0].vars.collection_url}"><img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src={content[0].images.thumb.url}&resize_to=limit&height=300&width=150" /></a>
+                </td>
+              </tr>
+            </mj-table>
+            <mj-text mj-class="paragraph-serif">
+                {content[0].vars.author} <br /> {content[0].vars.display_price}
+            </mj-text>
+          </mj-column>
+          <mj-column vertical-align="middle">
+            <mj-table padding="0px" cellpadding="0px" cellspacing="0px">
+              <tr>
+                <td align="center" style="height:300px;" height="300px">
+                  <a href="{content[1].vars.collection_url}"><img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src={content[1].images.thumb.url}&resize_to=limit&height=300&width=150" /></a>
+                </td>
+              </tr>
+            </mj-table>
+            <mj-text mj-class="paragraph-serif">
+                {content[1].vars.author} <br /> {content[1].vars.display_price}
+            </mj-text>
+          </mj-column>
+        </mj-group>
+        <mj-group>
+          <mj-column vertical-align="middle">
+            <mj-table padding="0px" cellpadding="0px" cellspacing="0px">
+              <tr>
+                <td align="center" style="height:300px;" height="300px">
+                  <a href="{content[2].vars.collection_url}"><img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src={content[2].images.thumb.url}&resize_to=limit&height=300&width=150" /></a>
+                </td>
+              </tr>
+            </mj-table>
+            <mj-text mj-class="paragraph-serif">
+                {content[2].vars.author} <br /> {content[2].vars.display_price}
+            </mj-text>
+          </mj-column>
+          <mj-column vertical-align="middle">
+            <mj-table padding="0px" cellpadding="0px" cellspacing="0px">
+              <tr>
+                <td align="center" style="height:300px;" height="300px">
+                  <a href="{content[3].vars.collection_url}"><img class="image-rail" src="https://d7hftxdivxxvm.cloudfront.net/?src={content[3].images.thumb.url}&resize_to=limit&height=300&width=150" /></a>
+                </td>
+              </tr>
+            </mj-table>
+            <mj-text mj-class="paragraph-serif">
+                {content[3].vars.author} <br /> {content[3].vars.display_price}
+            </mj-text>
+          </mj-column>
+        </mj-group>
       </mj-section>
 
       <!-- Thirds split -->
